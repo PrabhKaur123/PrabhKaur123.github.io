@@ -16,7 +16,7 @@ h4
 {
  	display: flex;
  	flex-wrap: wrap;
-    align-content: center;
+	justify-content: center;
 }
 .column
 {
@@ -60,9 +60,17 @@ h4
    {
 	   	background-color: #dddddd;
    }
+   .column1
+   {
+      width: 45%;
+   }
+   .column2
+   {
+      width: 45%;
+   }
    .column3
    {
-      min-width: 940px;
+width: 100%;
    }
 }
 
